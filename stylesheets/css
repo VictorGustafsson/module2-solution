@@ -1,3 +1,73 @@
-h1{
-	font-size: 100px;
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 
 }
+
+
+h1{
+	text-align: center;
+	margin-top: 30px; 
+	margin-bottom: 40px;
+}
+
+#items{
+
+	margin-left: 6%;
+}
+
+#first, #second, #third{
+	float: left;
+	border:2px solid black;
+	width: 30%;
+	margin: 5px;
+	height: 200px;
+	background-color: gray;
+}
+
+h2{
+	float: right;
+	border-bottom:2px solid black; 
+	border-left: 2px solid black; 
+	padding-left: 30px;
+	padding-right: 30px; 
+}
+
+p {
+	margin-top: 40px;
+	padding-left: 10px;
+}
+
+#chicken {
+	background-color: green;
+}
+
+#beef {
+	background-color: red;
+	color:white;
+}
+
+#sushi{
+	background-color: yellow;
+}
+
+/******* Desktop Devices ******/
+@media (min-width: 992px) {
+#div {width: 30_%;}
+}
+
+
+/******* Tablet Devices ******/
+@media (min-width: 768px) and (max-width: 991px) {
+	#first {width: 45%;}
+	#second {width: 45%;}
+	#third{width: 91.2%;}
+}
+
+/******* Moblie Devices ******/
+@media (max-width: 767px){
+	#first, #second, #third {width:91%;}
+}
+
+(min-width:480px) and (max-width: 640px)
